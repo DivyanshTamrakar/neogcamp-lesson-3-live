@@ -3,22 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- 1 way to add CSS into Html file is between style tag in head section -->
+<!--  
+<style>
+body{
+    color: red ;
+}
+</style>  -->
+
+<!-- 3rd way is to make seprate stylesheet and link it with html document in head section -->
+<link rel="stylesheet" href="styles.css">
+
     <title>Component Library</title>
 </head>
 <body>
 
-    <h1>Divyansh's Component Library</h1>
+    <!-- <h1 style="color:green">Divyansh's Component Library</h1> -->
+    <h1 id="lib-header">Divyansh's Component Library</h1>
+
     
     <!-- <div class = "its callled attributes">Content is between the tags</div> -->
     <p>I am attending neog.camp and I want to make a library which would make all my  projects looks good and consistent</p>
-    <hr >
-    <h2>@container</h2>
+    <hr>
+    <h2 >@container</h2>
     
     <h3>fluid container</h3>
-    <p>This is a center container, and it will go till the end of the page</p>
+    <p class="para">This is a center container, and it will go till the end of the page</p>
 
     <h3>center container</h3>
-    <p>This is a center container, and it will go till the specified width</p>
+    <p class="para">This is a center container, and it will go till the specified width</p>
 
     <hr > 
 
