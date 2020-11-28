@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 1 way to add CSS into Html file is between style tag in head section -->
+    <!--  
+<style>
+body{
+    color: red ;
+}
+</style>  -->
+
+    <!-- 3rd way is to make seprate stylesheet and link it with html document in head section -->
+    <link rel="stylesheet" href="/styles.css">
+
+    <title>Component Library</title>
+</head>
+
+<body>
+
+    <!-- <h1 style="color:green">Divyansh's Component Library</h1> -->
+    <h1>Divyansh's Component Library</h1>
+
+
+    <!-- <div class = "its callled attributes">Content is between the tags</div> -->
+    <p>I am attending neog.camp and I want to make a library which would make all my projects looks good and consistent
+    </p>
+    <p>This paragraph contains <strong>bold</strong>text</p>
+    <hr>
+    <h2>@container</h2>
+
+
+    <h3>fluid container</h3>
+    <div class="container container-fluid">This is a fluid container, and it will go till the end of the page</div>
+    <!-- <p>This is a fluid container, and it will go till the end of the page</p> -->
+
+    <h3>center container</h3>
+    <div class="container  container-center">This is a centered container, and it will go till the specified width</div>
+
+    <hr>
+
+    <h2>@links</h2>
+    <a class="link link-primary" href="https://tamrakardivyansh.netlify.app" target="_blank"><strong>My Portfoilo
+            Link</strong></a>
+    <a class="link link-secondary" href="/"><strong>Secondary link</strong></a>
+
+    <hr>
+    <h2> @lists</h2>
+
+    <h3>Unordered Lists </h3>
+
+    <ul class="list-non-bullet">
+        <li>Divyansh</li>
+        <li>Deepansh</li>
+        <li>Chirag</li>
+        <li>Siddharth</li>
+    </ul>
+
+    <h3>Unordered Inline Lists </h3>
+    <p> challenge: converting using CSS</p>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Divyansh</li>
+        <li class="list-item-inline">Deepansh</li>
+        <li class="list-item-inline">Chirag</li>
+        <li class="list-item-inline">Siddharth</li>
+    </ul>
+
+    <h3>Ordered Lists</h3>
+
+    <ol>
+        <li>Divyansh</li>
+        <li>Deepansh</li>
+        <li>Chirag</li>
+        <li>Siddharth</li>
+    </ol>
+
+    <h3>Reverse Ordered Lists</h3>
+
+    <ol reversed>
+        <li>Divyansh</li>
+        <li>Deepansh</li>
+        <li>Chirag</li>
+        <li>Siddharth</li>
+    </ol>
+
+    <hr>
+
+    <h2>@Descriptive List </h2>
+
+    <dt>Coffee</dt>
+    <dd>-black and hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- White cold drink</dd>
+
+    </dl>
+
+
+
+
+    <hr>
+
+    <h2>@nav</h2>
+
+    <nav class="navigation container">
+        <div class="nav-brand">IAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class=" list-item-inline"><a class="link link-active" href="/">Home</a></li>
+            <li class=" list-item-inline"><a class="link" href="/">Product</a></li>
+            <li class=" list-item-inline"><a class="link" href="/">About</a></li>
+
+        </ul>
+
+
+    </nav>
+    <hr>
+
+    <h2>@Header</h2>
+
+    <header class="hero">
+
+        <img class="hero-img" src="images\undraw_react_y7wq.svg" />
+
+        <div class="hero-header">Adarsh Balika the <span class="inverted">web developer</span></div>
+
+
+
+    </header>
+    <hr>
+    <h2>@sections</h2>
+
+    <section class="section">
+
+        <div class="container container-center">
+            <h1>white Section</h1>
+            <p>This is a White section and this will have white background<br>
+                Paragraph Writing and Web MappingSome of you might still be looking for ways to improve your
+                writing,whether a paragraph, or a whole essay. Below are some good tips thatshould help your writing to
+                unfold more clearly and logically. Letsbegin with the paragraph. Consider the diagram below. It stands
+                forthe five sentence paragraph.
+            </p>
+        </div>
+
+    </section>
+
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Off White Section</h1>
+            <p>This is a Of white section and this will have off white section in the background<br>
+                Paragraph Writing and Web MappingSome of you might still be looking for ways to improve your
+                writing,whether a paragraph, or a whole essay. Below are some good tips thatshould help your writing to
+                unfold more clearly and logically. Letsbegin with the paragraph. Consider the diagram below. It stands
+                forthe five sentence paragraph.</p>
+        </div>
+    </section>
+
+
+
+    <hr>
+    <h2>@footer</h2>
+    <footer class="footer container">
+
+        <div class="footer-header">Some small heading inside footer</div>
+        <ul class="list-non-bullet">
+
+            <li class="list-item-inline"><a class="link" href="/">SocialItemOne</a></li>
+            <li class="list-item-inline"><a class="link" href="/">SocialItemtwo</a></li>
+            <li class="list-item-inline"><a class="link" href="/">SocialItemthree</a></li>
+
+
+        </ul>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

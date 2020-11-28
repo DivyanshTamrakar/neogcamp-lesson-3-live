@@ -31,13 +31,14 @@ hr {
 .link {
     padding: 0.5rem 1rem;
     text-decoration: none;
+    
 }
 
 .link-primary {
-
     color: white;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    margin-top : 5rem;
 }
 
 .link-secondary {
@@ -116,23 +117,32 @@ hr {
     padding: 2rem;
     text-align: center;
 
-    
+
 }
 
-.ow{
+.ow {
     background-color: var(--off-white);
 }
+
 /* footer section */
-.footer{
+.footer {
     background-color: var(--primary-color);
-    border-radius: 0rem 1rem 0rem 0rem ;
+    border-radius: 0rem 1rem 0rem 0rem;
     text-align: center;
     color: white;
     padding: 2rem;
+    margin-top: 3rem;
 }
- .footer .link{
-     color: white;
- }
- .footer ul{
+
+.footer .link {
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+
+}
+
+
+.footer ul {
     padding-inline-start: 0rem;
 }
