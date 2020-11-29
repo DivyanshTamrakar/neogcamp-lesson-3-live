@@ -4,7 +4,7 @@
     --primary-color: #1E40AF;
     --off-white: #E5E7EB;
     --dark-grey: #6B7280;
-    --android:#5eb700;
+    --android: #5eb700;
 }
 
 body {
@@ -24,7 +24,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 650px;
     margin: auto;
 
 }
@@ -32,14 +32,14 @@ hr {
 .link {
     padding: 0.5rem 1rem;
     text-decoration: none;
-    
+
 }
 
 .link-primary {
     color: white;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    margin-top : 5rem;
+    margin-top: 5rem;
 }
 
 .link-secondary {
@@ -140,7 +140,8 @@ hr {
     color: white;
     font-weight: bold;
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
 
 }
@@ -149,21 +150,37 @@ hr {
 .footer ul {
     padding-inline-start: 0rem;
 }
+
 /* My additional edit */
 
-.para-about{
-text-align: justify;
-margin: 1rem 3rem;
-padding: 2rem;
-background-color: var(--dark-grey);
-color: white;
-border-radius: 1rem 1rem 1rem 1rem;
-word-spacing: 0.5rem;
+.para-about {
+    text-align: justify;
+    margin: 1rem 3rem;
+    padding: 2rem;
+    background-color: var(--dark-grey);
+    color: white;
+    border-radius: 1rem 1rem 1rem 1rem;
+    word-spacing: 0.5rem;
 }
-.profile{
+
+.profile {
     text-align: center;
     margin-top: 3rem;
 }
-.footer .list-non-bullet{
+
+.footer .list-non-bullet {
     margin-top: 3rem;
+}
+.both-button{
+    margin-top: 2rem;
+
+}
+.codehoilc{
+    color: black;
+    font-weight: bolder;
+    
+    padding-left: 0.5rem;
+    
+    border-radius: 1rem;
+    
 }
