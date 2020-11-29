@@ -124,6 +124,7 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+    padding-bottom: 2rem;
 }
 
 /* footer section */
@@ -183,4 +184,15 @@ hr {
     
     border-radius: 1rem;
     
+}
+.color-section{
+    background-color: #E5E7EB;
+    padding-bottom: 2rem;
+}
+.footer-social { float: center; margin-top:30px;}
+.footer-social li { display: inline; margin: 0.5rem;}
+.footer-social span { margin-top: -20px;}
+
+.btn{
+    margin-top: 2rem;
 }
