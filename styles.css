@@ -4,6 +4,7 @@
     --primary-color: #1E40AF;
     --off-white: #E5E7EB;
     --dark-grey: #6B7280;
+    --android:#5eb700;
 }
 
 body {
@@ -100,7 +101,7 @@ hr {
     max-width: 450px;
     display: block;
     padding-top: 2rem;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     color: var(--dark-grey);
 
@@ -137,6 +138,7 @@ hr {
 
 .footer .link {
     color: white;
+    font-weight: bold;
 }
 .footer .footer-header{
     font-weight: bold;
@@ -146,4 +148,22 @@ hr {
 
 .footer ul {
     padding-inline-start: 0rem;
+}
+/* My additional edit */
+
+.para-about{
+text-align: justify;
+margin: 1rem 3rem;
+padding: 2rem;
+background-color: var(--dark-grey);
+color: white;
+border-radius: 1rem 1rem 1rem 1rem;
+word-spacing: 0.5rem;
+}
+.profile{
+    text-align: center;
+    margin-top: 3rem;
+}
+.footer .list-non-bullet{
+    margin-top: 3rem;
 }
