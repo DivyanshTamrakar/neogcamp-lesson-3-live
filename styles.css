@@ -214,3 +214,16 @@ display: inline-block;
 padding: 0.5rem;
 
 }
+.back-link{
+    text-decoration: none;
+    margin-left: 1rem;
+    
+}
+.back-text{
+     color: blue;
+     font-size: x-large;
+     font-weight: bold;
+    margin-left: 0.5rem; 
+    
+    
+}
