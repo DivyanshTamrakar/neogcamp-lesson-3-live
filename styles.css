@@ -196,6 +196,8 @@ hr {
 .color-section{
     background-color: #E5E7EB;
     padding-bottom: 2rem;
+    margin: 1rem;
+    
 }
 .footer-social { float: center; margin-top:30px;}
 .footer-social li { display: inline; margin: 0.5rem;}
