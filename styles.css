@@ -274,8 +274,8 @@ and (max-device-width : 1024px) {
     }
     
     .card-container .card .face {
-    width: 300px;
-    height: 250px;
+    width: 320px;
+    height: 200px;
     transition: 0.5s;
     }
     
@@ -309,6 +309,7 @@ and (max-device-width : 1024px) {
     
     .card-container .card .face.face1 .content h3 {
     margin: 10px 0 0;
+    height: fit-content;
     padding: 0;
     color: #fff;
     text-align: center;
@@ -335,10 +336,11 @@ and (max-device-width : 1024px) {
     margin: 0;
     padding: 0;
     text-align: left;
+    font-size: small;
     }
     
     .card-container .card .face.face2 .content a {
-    margin: 0.2rem 0rem 0rem 0rem ;
+    margin: 0.9rem 0rem 0rem 0rem ;
     display: inline-block;
     text-decoration: none;
     font-weight: 900;
